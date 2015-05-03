@@ -16,7 +16,7 @@ There is an iOS template called 'Sprite Kit Game'. It will offer a very simple e
 
 ### OpenGL ES Call stack
 
-![Empty scene OpenGL ES call stack](/content/images/2014/Jan/SpriteKit_EmptyCallstack.png)
+![Empty scene OpenGL ES call stack](/images/SpriteKit_EmptyCallstack.png)
 
 The first thing we will take a look at it the OpenGL ES call stack. 16 calls are needed to draw an empty screen.
 
@@ -32,13 +32,13 @@ The rest are just some clean up calls (13-15) which are from no interest right n
 
 ### OpenGL ES Resources
 
-![All OpenGL ES resources in an empty scene](/content/images/2014/Jan/SpriteKit_EmptySceneResources.png)
+![All OpenGL ES resources in an empty scene](/images/SpriteKit_EmptySceneResources.png)
 
 The next thing we should take a look at are the resources loaded into the GPU at this point.
 
 #### Textures
 
-![Sprite Kit bitmap font](/content/images/2014/Jan/SpriteKit_BitmapFont.png)
+![Sprite Kit bitmap font](/images/SpriteKit_BitmapFont.png)
 
 There are 4 textures loaded. Texture 1 is an 1×1 sized white image. The next two are empty textures and the fourth is the bitmap font used to draw fps and node count.
 
